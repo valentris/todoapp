@@ -6,6 +6,9 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.BOOLEAN,
       defaultValue: false
     }
+  }, {
+    tableName: 'todo',  // Specify the correct table name here
+    timestamps: true,   // If you want Sequelize to manage `createdAt` and `updatedAt`
   });
 
   Todo.associate = function(models) {
