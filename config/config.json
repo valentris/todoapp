@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "todolist_db",
-    "host": "127.0.0.1",
+    "username": "freedb_free_root",
+    "password": "yPDF*%aB8HJsaPv",
+    "database": "freedb_todolist_db",
+    "host": "sql.freedb.tech",
     "dialect": "mysql"
   },
   "test": {
