@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: false
     }
   }, {
-    tableName: 'todo',  // Specify the correct table name here
+    tableName: 'todos',  // Specify the correct table name here
     timestamps: true,   // If you want Sequelize to manage `createdAt` and `updatedAt`
   });
 
