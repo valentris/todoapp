@@ -8,6 +8,13 @@ const taskRoutes = require('./routes/task');
 app.use(cors());
 app.use(express.json());
 
+const PORT = process.env.PORT || 8000;
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
+
 app.use('/api/users', userRoutes);
 app.use('/api/todos', todoRoutes);
 app.use('/api/tasks', taskRoutes);
