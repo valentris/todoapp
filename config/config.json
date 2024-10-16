@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "334888",
-    "database": "todolist_db",
-    "host": "127.0.0.1",
+    "username": "fcollect_root",
+    "password": "comextra123",
+    "database": "fcollect_todo_list",
+    "host": "103.147.154.213",
     "dialect": "mysql"
   },
   "test": {
