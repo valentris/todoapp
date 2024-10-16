@@ -12,6 +12,9 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false
     }
+  }, {
+    tableName: 'task',  // Specify the correct table name here (lowercase 'task')
+    timestamps: true,   // If you have `createdAt` and `updatedAt` in your table
   });
 
   // Relasi: Task belongs to a Todo
