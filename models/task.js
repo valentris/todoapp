@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   }, {
-    tableName: 'task',  // Specify the correct table name here (lowercase 'task')
+    tableName: 'tasks',  // Specify the correct table name here (lowercase 'task')
     timestamps: true,   // If you have `createdAt` and `updatedAt` in your table
   });
 
